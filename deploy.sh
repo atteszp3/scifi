@@ -1,14 +1,14 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-cd ~/storage/shared/Space || exit
+cd ~/storage/shared/space || exit
 
-echo "📦 Fájlok hozzáadása..."
+echo "📦 Módosítások hozzáadása..."
 git add .
 
 echo "📝 Commit készítése..."
 git commit -m "auto deploy $(date)" || echo "Nincs új változás"
 
-echo "🚀 Push Netlify/GitHub felé..."
+echo "🚀 Feltöltés GitHubra (Netlify ezt figyeli)..."
 git push origin main
 
-echo "✅ Kész! Netlify automatikusan deployol."
+echo "✅ Kész! Netlify automatikusan frissül."
