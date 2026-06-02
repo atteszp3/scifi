@@ -1,0 +1,26 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "YT5r41lyqIMlWgtcirV_1"
+uri = "file://sci-fi-warzone.tar.gz"
+type = "unspecified"
+title = "Sci-Fi Warzone — Full Project"
+
+[[outputs]]
+id = "Q1u--FZf4K2oXZa95E6LW"
+uri = "file://sci-fi-warzone.zip"
+type = "unspecified"
+title = "Sci-Fi Warzone - ZIP (12MB)"
+
+[[outputs]]
+id = "ElEaxtJpFKixOjRk_Io2X"
+uri = "file://NETLIFY_DEPLOY.md"
+type = "text"
+title = "Netlify Deploy Guide"
+
+[[outputs]]
+id = "EcQHzTnYpA9s-7MdH8wjl"
+uri = "file://index_html.txt"
+type = "text"
+title = "index.html - 1844 sor"
